@@ -44,7 +44,9 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	document.write('It works.')
+	import bar from './bar';
+
+	bar();
 
 /***/ }
 /******/ ]);
